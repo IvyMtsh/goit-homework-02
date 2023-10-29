@@ -1,3 +1,92 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+.navigation {
+  background: #fff;
+}
+.link-logo {
+  color: #2e2f42;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-flex;
+  height: 24px;
+  align-items: center;
+  padding-left: 156;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.link-logo .accent {
+  color: #4d5ae5;
+}
+.wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 40px;
+  padding-left: 76px;
+  padding-right: 332px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.main-page-btn {
+  border-radius: 4px;
+  background: #4d5ae5;
+  border: none;
+  color: #fff;
+  padding-top: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+}
+.main-page {
+  background: #2e2f42;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-page-title {
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  padding-top: 188px;
+  padding-bottom: 48px;
+}
+.main-page-text-container {
+  background: #fff;
+  padding-left: 156px;
+  padding-right: 156px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.main-page-text-container-tem {
+  background: #f4f4fd;
+}
+.main-page-text-container-portfolio {
+  background: #fff;
+}
+footer {
+  background: #2e2f42;
+}
+.link-logo-ft {
+  color: #f4f4fd;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-flex;
+  height: 24px;
+  align-items: center;
+  padding-left: 156;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.link-logo-ft .accent {
+  color: #4d5ae5;
+}
