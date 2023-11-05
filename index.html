@@ -21,26 +21,30 @@
   </head>
   <body>
     <header>
-      <div class="navigation">
-        <nav>
+      <nav>
+        <div class="logo">
           <a class="link-logo" href="/index.html"
             ><span class="accent">Web</span>Studio</a
           >
           <ul class="wrapper">
-            <li class="studio"><a href="">Studio</a></li>
-            <li class="portfolio"><a href="">Portfolio</a></li>
-            <li class="contacts"><a href="">Contacts</a></li>
+            <li class="studio"><a href="/index.html">Studio</a></li>
+            <li><a class="link" href="#our-portfolio">Portfolio</a></li>
+            <li><a class="link" href="#contact">Contacts</a></li>
           </ul>
-        </nav>
-        <address>
-          <ul>
-            <li>
-              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-          </ul>
-        </address>
-      </div>
+        </div>
+      </nav>
+      <address id="contact">
+        <ul>
+          <li>
+            <a class="link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+          </li>
+        </ul>
+      </address>
     </header>
 
     <main>
@@ -52,42 +56,44 @@
         </section>
       </div>
 
-      <section class="main-page-text-container">
-        <h2>Features</h2>
-        <ul>
-          <li>
-            <h3>Strategy</h3>
+      <section>
+        <div class="list-container">
+          <h2>Features</h2>
+          <ul>
+            <li>
+              <h3>Strategy</h3>
 
-            <p>
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h3>Punctuality</h3>
+              <p>
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li>
+              <h3>Punctuality</h3>
 
-            <p>
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3>Diligence</h3>
+              <p>
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li>
+              <h3>Diligence</h3>
 
-            <p>
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3>Technologies</h3>
+              <p>
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li>
+              <h3>Technologies</h3>
 
-            <p>
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+              <p>
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section class="main-page-text-container-tem">
@@ -135,7 +141,8 @@
           </li>
         </ul>
       </section>
-      <section class="main-page-text-container-portfolio">
+      <!--Our Portfolio-->
+      <section id="our-portfolio" class="main-page-text-container-portfolio">
         <h2>Our Portfolio</h2>
         <ul>
           <li>
