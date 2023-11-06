@@ -31,9 +31,6 @@ h3 {
   display: inline-flex;
   height: 24px;
   align-items: center;
-  padding-left: 156;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .link-logo .accent {
   color: #4d5ae5;
@@ -128,9 +125,6 @@ footer {
   display: inline-flex;
   height: 24px;
   align-items: center;
-  padding-left: 156;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .link-logo-ft .accent {
   color: #4d5ae5;
