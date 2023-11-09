@@ -90,7 +90,7 @@ body {
 .list-feature {
   list-style: none;
 }
-.list--text {
+.list-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
