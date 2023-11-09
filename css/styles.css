@@ -40,10 +40,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-  font-style: normal;
 }
 .connection-list {
   list-style: none;
+  font-style: normal;
 }
 .connection .link-connection:hover,
 .connection .link-connection:focus {
